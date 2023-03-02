@@ -2,14 +2,23 @@ name: patrick
 channels:
   - conda-forge
   - defaults
+  - nvidia
+  - pytorch
 dependencies:
   - python
   - transformers
+  - datasets 
   - numpy
   - selenium
   - webdriver-manager
   - pandas
   - tqdm
+  - pip
   - jupyter
   - ipykernel
-  
+  - pytorch
+  - pytorch-cuda=11.7
+  - wandb
+  - tqdm
+  - pip:
+    - tiktoken
