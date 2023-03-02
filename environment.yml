@@ -1,0 +1,15 @@
+name: patrick
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python
+  - transformers
+  - numpy
+  - selenium
+  - webdriver-manager
+  - pandas
+  - tqdm
+  - jupyter
+  - ipykernel
+  
