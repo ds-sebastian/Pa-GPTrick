@@ -3,7 +3,7 @@ channels:
   - conda-forge
   - defaults
   - nvidia
-  - pytorch
+  - pytorch-nightly
 dependencies:
   - python
   - transformers
@@ -17,7 +17,7 @@ dependencies:
   - jupyter
   - ipykernel
   - pytorch
-  - pytorch-cuda=11.7
+  - pytorch-cuda=11.8
   - wandb
   - tqdm
   - pip:
