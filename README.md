@@ -37,3 +37,6 @@ Use `sample.py` to sample from the model
 
 Example:
 - `python sample.py --out_dur={specified output dir} --start="{starting text}" --num_samples={number of samples}`
+
+
+![sample](https://user-images.githubusercontent.com/69488704/224516157-1e89f861-8696-43b6-94d8-416ee9e23038.png)
