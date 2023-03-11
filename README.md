@@ -1,5 +1,5 @@
 # No, this is PaGPTrick
-## Fine-tuning GPT-2 with Spongebob
+## Fine-tuning GPT-2 with Spongebob (and [NanoGPT](https://github.com/karpathy/nanoGPT))
 
 This *educational* repository contains code for fine-tuning GPT-2 on dialogue from the TV series Spongebob Squarepants.
 
