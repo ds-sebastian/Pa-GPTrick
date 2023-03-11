@@ -1,11 +1,10 @@
 name: patrick
 channels:
-  - conda-forge
-  - defaults
-  - nvidia
   - pytorch-nightly
+  - nvidia
+  - conda-forge
 dependencies:
-  - python
+  - python=3.9
   - transformers
   - datasets 
   - numpy
@@ -16,8 +15,8 @@ dependencies:
   - pip
   - jupyter
   - ipykernel
-  - pytorch
-  - pytorch-cuda=11.8
+  - pytorch #=2.0 #::pytorch-nightly
+  - pytorch-cuda=11.7 #::nvidia
   - wandb
   - tqdm
   - pip:

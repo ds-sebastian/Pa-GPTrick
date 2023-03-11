@@ -1,7 +1,9 @@
 transcripts/**
 *.csv
 *.bin
-
+.vscode/
+out*/
+*.pt
 # Byte-compiled / optimized / DLL files
 __pycache__/
 testing/
