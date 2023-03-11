@@ -23,6 +23,8 @@ Spongebob transcripts can be scraped from the [fandom website](https://spongebob
 
 The `preprocess.py` script takes the full transcript and simply removes non-dialogue lines. The result is stored in `spongebob_anthology_cleaned.txt`.
 
+After a clean version of the transcript is created, navigate to `data/spongebob/` and run the `prepare.py` (from  [NanoGPT](https://github.com/karpathy/nanoGPT)) script to make the training and test splits.
+
 ## Training
 
 Use `train.py` to train the model, with the either the following arguments
