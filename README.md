@@ -3,7 +3,7 @@
 
 This *educational* repository contains code for fine-tuning GPT-2 on dialogue from the TV series Spongebob Squarepants.
 
-The code for fine-tuning GPT-2 comes from Karpathy's [NanoGPT](https://github.com/karpathy/nanoGPT)
+The code for fine-tuning GPT-2 comes from Karpathy's [NanoGPT](https://github.com/karpathy/nanoGPT) and uses PyTorch.
 
 0. [Setup](#setup)
 1. [Scraping](#scraping)
